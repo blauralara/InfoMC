@@ -1,2 +1,2 @@
 # InfoMC
-InfoMC második része
+InfoMC második zh.
