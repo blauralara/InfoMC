@@ -1,0 +1,49 @@
+html {
+    background: url("../img/wood.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    font-family: 'Coming Soon', cursive;
+    color: white;
+}
+body {
+    background-color: black;
+    margin: 6%;
+    padding: 10%;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+p, label {
+    font-size: 24px;
+}
+input {
+    margin: 1%;
+    font-size: 18px;
+}
+img {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+#legolcsobb, #atlag, #szoras {
+    font-style: italic;
+}
+#eddigi {
+    margin-bottom: 8%;
+}
+.p1 {
+    text-decoration: underline;
+}
+.termekek {
+    margin-left: 5%;
+    font-size: 30px;
+}

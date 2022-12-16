@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Harmadik feladat eredményei</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style/style_3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Harmadik feladat eredményei</h1>
+        <h2>Paralelogramma területe kétféleképpen</h2>
+        <p>Első módszer <span class = "data">(alap: <span id="alap1"></span>, magasság: <span id="magassag1"></span>)</span>: <span id="paralelogramma_elso"></span></p>
+        <p>Második módszer <span class = "data">(alap: <span id="alap2"></span>, magasság: <span id="magassag2"></span>, közbezárt szög: <span id="szog"></span>)</span>: <span id="paralelogramma_masodik"></span></p>
+        <h2>3 sztring a listából</h2>
+        <p><span id="alah">Lista:</span> <span id="lista"></span></p>
+        <p><span id="alah">Innen három sztring:</span> <span id="string_veletlenszeruen"></span></p>
+    </body>
+    <footer>
+        <script src = "script/paralelogramma_terulete.js"></script>
+        <script src = "script/string_visszaad.js"></script>
+        <script>
+            const alap = 9;
+            const magassag = 10;
+            const szog = 120;
+            let stringek = ["alma", "banan", "korte", "malna", "eper", "narancs"];
+
+            document.getElementById("alap1").innerHTML = alap;
+            document.getElementById("alap2").innerHTML = alap;
+            document.getElementById("magassag1").innerHTML = magassag;
+            document.getElementById("magassag2").innerHTML = magassag;
+            document.getElementById("szog").innerHTML = szog;
+            document.getElementById("lista").innerHTML = stringek;
+
+            document.getElementById("paralelogramma_elso").innerHTML = paralelogramma_terulete_magassag(alap, magassag);
+            document.getElementById("paralelogramma_masodik").innerHTML = paralelogramma_terulete_szog(alap, magassag, szog);
+            document.getElementById("string_veletlenszeruen").innerHTML = return_random_string(stringek);
+        </script>
+    </footer>
+</html>

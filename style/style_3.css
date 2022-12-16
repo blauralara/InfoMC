@@ -1,0 +1,30 @@
+html {
+    background: url("../img/notebook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    font-family: 'Coming Soon', cursive;
+}
+body {
+    margin: 6.5%;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    text-decoration: underline;
+}
+h2 {
+    margin: 3%;
+}
+p {
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.data {
+    font-style: italic;
+}
+#alah {
+    text-decoration: underline;
+}
